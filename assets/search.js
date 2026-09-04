@@ -48,7 +48,7 @@
     var btn = document.querySelector('.search-btn');
     if (!btn) return;
 
-    var PAGES = ['./', 'program/', 'speakers/', 'registration/', 'directions/', 'flyer/'];
+var PAGES = ['./', 'program/', 'speakers/', 'organizers/'];
 
     var box = document.createElement('div');
     box.className = 'search-box';
